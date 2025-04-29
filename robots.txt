@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Sitemap: https://00x99satta.xyz/sitemap.xml
