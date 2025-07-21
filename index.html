@@ -109,7 +109,7 @@
     </header>
 
     <section class="game-display" aria-labelledby="current-game">
-        <h2 id="current-game" class="current-game">"हमारा ऑनलाइन एप्लिकेशन जल्द ही आ रहा है!</h2>
+        <h2 id="current-game" class="current-game">"हमारा ऑनलाइन एप्लिकेशन जल्द ही आ रहा है!"</h2>
         <p id="game-number" class="game-number">Online Application - Coming Soon</p>
         <noscript>
             <p>अगला गेम: सपनों की रेस - नंबर जल्द उपलब्ध होगा।</p>
@@ -1731,6 +1731,22 @@
             clip: rect(0, 0, 0, 0);
             border: 0;
         }
+        <style>
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
     </style>
 </body>
 </html>
